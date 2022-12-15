@@ -29,7 +29,7 @@ Para ejecutar el proyecto es necesario utilizar los siguientes comandos:
 - [X]  Ejecuta PHPUnit para ejecutar los tests y asegurare de que todo funciona correctamente
 - [X]  Sube el código a Github y envíanos el enlace
 
-## Contact me
+## Contactame
 - [LinkedIn](https://www.linkedin.com/in/davidgb2021/)
 - [Github](https://github.com/daviddagb2)
 - [Facebook](https://www.facebook.com/gonzalezblanchard)
