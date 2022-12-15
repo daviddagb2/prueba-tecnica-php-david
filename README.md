@@ -8,12 +8,18 @@ Esta app fue creada utilizando PHP 8.2 Y Composer
 Es necesario utilizar los siguientes requisitos 
 - PHP 8.2.0
 - Composer
+- MySQL
+
+## Instalar la base de datos
+- Crear una base de datos llamada pruebaphp
+- Ejecutar el escript users.sql incluido en la carpeta del proyecto
+- crear un archivo .env y copiar los parametros de .env.example
+- Incluir en el archivo .env los parámetros de conexión
 
 ## Ejecutar el proyecto
 Para ejecutar el proyecto es necesario utilizar los siguientes comandos:
 - composer install
 - php vendor/phpunit/phpunit/phpunit --verbose (ejecutar las pruebas)
-
 
 ## Funciones solicitadas
 
