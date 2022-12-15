@@ -10,17 +10,15 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {
-        "php": ">=7.3.0",
-        "afrazahmad/clear-cached-data": "^1.0"
-    },
     "config": {
+        "bin-dir": "bin",
         "allow-plugins": {
             "kylekatarnls/update-helper": true
         }
     },
     "require-dev": {
-        "phpunit/phpunit": "^9.5"
+        "phpunit/phpunit": "^9.5",
+        "symfony/dotenv": "^6.2"
     },
     "autoload": {
         "psr-4": {
