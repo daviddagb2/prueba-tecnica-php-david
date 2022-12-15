@@ -5,7 +5,6 @@ Este código fué creado para resolver el code challenge en PHP cumpliendo con l
 Esta app fue creada utilizando PHP 8.2 Y Composer
 
 ## Compilar el projecto
-
 Es necesario utilizar los siguientes requisitos 
 - PHP 8.2.0
 - Composer
