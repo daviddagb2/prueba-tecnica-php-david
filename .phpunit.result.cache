@@ -1,1 +1,0 @@
-{"version":1,"defects":{"CalcTest::test_sum":4,"CalcTest::test_res":4,"UserTest::test_sum":4,"UserTest::test_res":4,"Warning":6,"UserTest::test_create_user":4},"times":{"CalcTest::test_sum":0.003,"CalcTest::test_res":0,"UserTest::test_sum":0.002,"UserTest::test_res":0,"Warning":0.003,"UserTest::test_create_user":0.087}}
