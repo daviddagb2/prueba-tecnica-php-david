@@ -30,20 +30,13 @@ class Database
     private function __construct()
     {
         $dotenv = new Dotenv();
-        echo(__DIR__);
         $dotenv->load(__DIR__ . '/../../.env');
 
         $_host = $_ENV['DATABASE_HOST'];
         $_username = $_ENV['DATABASE_USER'];
         $_password = $_ENV['DATABASE_PASSWD'];
         $_database = $_ENV['DATABASE_NAME'];
-
-        //print_r(__DIR__ . '/../../.env');
-        print_r($_password);
-
-        //$this->pdo = new PDO("mysql:host=$this->_host;dbname=$this->_database", $this->_username, $this->_password);
-
-            $dsn = "mysql:host=localhost;dbname=pruebaphp;charset=UTF8";
+        $dsn = "mysql:host=localhost;dbname=pruebaphp;charset=UTF8";
 
         try {
             $this->pdo = new PDO($dsn, $_username, $_password);
@@ -94,18 +87,6 @@ class Database
      
     public function exec($sql)
     {
-       /* $ret = array('STATUS'=>'ERROR','ERROR'=>'');
- 
-        $mysqli = $this->getConnection();
-        $res = $mysqli->query($sql);
-         
-        if($res)
-            $ret['STATUS'] = "OK";
-        else
-            $ret['ERROR'] = mysqli_error();
-         
-        return $ret;*/
-
         $statement = $this->pdo->prepare($sql);
         $statement->execute([
             ':name' => $name
