@@ -9,7 +9,7 @@ use App\Exceptions\UserDoesNotExistException;
 class UserTest extends TestCase
 {
     public $userRepository = null;
-
+    
     public function setUp(): void
     {
         $this->userRepository = new UserRepository();
